@@ -1,0 +1,15 @@
+1.新建空project
+2.修改maven本地仓库位置
+3.添加module,选择spring initializer,选择组件Web
+4.application.properties配置文件：修改服务器端口号
+5.添加controller包，编写控制器
+6.执行项目Application类的main方法，启动项目
+
+
+--添加mybatis组件
+1.pom.xml添加依赖组件
+2.修改application.properties配置文件，也可以重新新建application.yaml配置文件
+定义驱动类名，连接url，用户名，密码，mybatis别名扫描包
+3.定义mapper包，写mapper接口,写mybatis注解
+4.项目Application类上添加MapperScan注解，自动扫描接口生成代理类
+5.编写测试类，测试查询。
